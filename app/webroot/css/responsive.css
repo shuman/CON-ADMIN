@@ -1,0 +1,83 @@
+
+@media only screen and (min-width:992px){
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.dash_content .conv_left_sidebar{
+		width: 220px;
+	}
+	.dash_content{
+		padding-left: 220px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.container{
+		width: 100%;
+	}
+
+	.dash_content{
+		padding: 0;
+		width: 100%;
+		display: inline-block;
+	}
+
+	ul.side_nav li a:hover,
+	ul.tab_mdl_nav li:hover .opt_list,
+	ul.tab_mdl_nav li.active:hover .opt_list, 
+	ul.tab_mdl_nav li.active:focus .opt_list, 
+	ul.tab_mdl_nav li.active .opt_list{
+		margin-right: 0;
+	}
+
+	ul.tab_mdl_nav li:hover .opt_list{
+		margin-left: 5px;
+	}
+
+	.dash_content .conv_left_sidebar{
+		background: #fff;
+		position: relative;
+		width: 100%;
+		left: auto;
+		top: auto;
+		padding: 20px 30px;
+	}
+	.dash_content .conv_container{
+		padding: 20px 0;
+		background: #fff;
+	}
+
+	.box_acd_content{
+		padding: 10px 0 20px 20px
+	}
+
+	.main_content{
+		background: #fff;
+	}
+}
+
+@media only screen and (max-width: 690px){
+
+}
+
+@media only screen and (max-width: 600px){
+	
+}
+
+@media only screen and (max-width: 480px){
+	
+
+}
+
+@media only screen and (max-width: 390px){
+	
+}
+
+@media only screen and (max-width: 320px){
+	
+}
